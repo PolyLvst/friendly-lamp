@@ -24,7 +24,7 @@ disable-block-detection: false
 disable-filters: false
 dont-type: false
 # scrape-to-file: scraped.txt
-total-crashes-limit: 5
+# total-crashes-limit: 5
 count-app-crashes: false
 shuffle-jobs: true
 truncate-sources: 2-5
@@ -59,7 +59,7 @@ delete-interacted-users: true
 ## Unfollow (unfollow jobs)
 # unfollow: 10-20
 # unfollow-any: 10-20
-# unfollow-non-followers: 10-20
+unfollow-non-followers: 10-20
 # unfollow-any-non-followers: 10-20
 # unfollow-any-followers: 10-20
 # unfollow-from-file: [usernames1.txt 7-15, usernames2.txt 6]
@@ -150,7 +150,7 @@ end-if-pm-limit-reached: false
 # Scheduling
 ##############################################################################
 
-working-hours: [10.15-16.40, 18.15-22.46]
+working-hours: [07.15-16.40, 18.15-22.46]
 time-delta: 10-15
 repeat: 280-320
 total-sessions: 1 # -1 or commented for infinite sessions
