@@ -1,5 +1,4 @@
 @echo off
-set /
 cd %CD%
 if not exist "./venv" (
     echo Creating virtual environment...
