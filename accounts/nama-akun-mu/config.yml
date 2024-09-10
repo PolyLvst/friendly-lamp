@@ -13,13 +13,13 @@ username: username # you have to put your IG name here!
 app-id: com.instagram.android
 use-cloned-app: false
 allow-untested-ig-version: true # Using an untested version of IG would cause unexpected behavior because some elements in the user interface may have been changed
-screen-sleep: true
+screen-sleep: false
 screen-record: false
 speed-multiplier: 5
 debug: false
 close-apps: false
-kill-atx-agent: false
-restart-atx-agent: false
+kill-atx-agent: true
+restart-atx-agent: true
 disable-block-detection: false
 disable-filters: false
 dont-type: false
@@ -48,7 +48,7 @@ blogger-following: [ username1, username2 ]
 # place-likers-recent: [ place1, place2 ]
 # interact-from-file: [usernames1.txt 10-15, usernames2.txt 3]
 # posts-from-file: posts.txt
-feed: 1-5 # is the number of likes you will give in feed
+feed: 10-30 # is the number of likes you will give in feed
 
 ## Special modifier for jobs and sources
 watch-video-time: 15-35
@@ -104,7 +104,7 @@ telegram-reports: false # for using telegram-reports you have also to configure 
 # fling-when-skipped: 0
 # min-following: 100
 
-interactions-count: 5-60
+interactions-count: 10-60
 likes-count: 1-4
 likes-percentage: 70
 stories-count: 1-5
@@ -115,12 +115,12 @@ carousel-percentage: 60-70
 # comment-percentage: 30-40
 # pm-percentage: 30-40
 interact-percentage: 60-80
-# follow-percentage: 30-40
-# follow-limit: 50
+follow-percentage: 30-40
+follow-limit: 50
 skipped-list-limit: 10-15
 skipped-posts-limit: 5
 fling-when-skipped: 0
-# min-following: 100
+min-following: 100
 
 ##############################################################################
 # Total Limits Per Session
@@ -152,5 +152,5 @@ end-if-pm-limit-reached: false
 
 working-hours: [07.15-16.40, 18.15-22.46]
 time-delta: 10-15
-repeat: 280-320
-total-sessions: 1 # -1 or commented for infinite sessions
+repeat: 30-280
+# total-sessions: 1 # -1 or commented for infinite sessions
