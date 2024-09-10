@@ -8,7 +8,7 @@ https://docs.gramaddict.org/#/quickstart
 
 1. Buat virtual env : py -m venv venv
 2. Aktivasi venv : ./venv/Scripts/activate
-3. install requirements : pip3 install gramaddict
+3. install requirements : pip install gramaddict
 (Optional)
 ## Jika dependensi anda rusak coba install python 3.8 Lalu pakai requirements ini : pip install -r ./requirements.txt
 4. Pastikan adb telah terinstall dengan cara : adb devices
