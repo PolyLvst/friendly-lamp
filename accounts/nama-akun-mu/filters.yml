@@ -7,7 +7,7 @@
 ##############################################################################
 
 ## Filters on profile type
-skip_business: true
+skip_business: false
 skip_non_business: false
 skip_following: true
 skip_follower: true
@@ -16,9 +16,9 @@ interact_only_private: false
 
 ## Filters on profile stats
 min_followers: 50
-max_followers: 2500
+max_followers: 500000
 min_followings: 50
-max_followings: 2500
+max_followings: 500000
 min_potency_ratio: 0.5
 max_potency_ratio: 5
 min_posts: 3

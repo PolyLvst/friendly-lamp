@@ -25,7 +25,7 @@ disable-filters: false
 dont-type: false
 # scrape-to-file: scraped.txt
 # total-crashes-limit: 5
-count-app-crashes: false
+count-app-crashes: true
 shuffle-jobs: true
 truncate-sources: 2-5
 
@@ -59,7 +59,7 @@ delete-interacted-users: true
 ## Unfollow (unfollow jobs)
 # unfollow: 10-20
 # unfollow-any: 10-20
-unfollow-non-followers: 10-20
+# unfollow-non-followers: 10-20
 # unfollow-any-non-followers: 10-20
 # unfollow-any-followers: 10-20
 # unfollow-from-file: [usernames1.txt 7-15, usernames2.txt 6]
@@ -104,7 +104,7 @@ telegram-reports: false # for using telegram-reports you have also to configure 
 # fling-when-skipped: 0
 # min-following: 100
 
-interactions-count: 10-60
+interactions-count: 20-60
 likes-count: 1-4
 likes-percentage: 70
 stories-count: 1-5
@@ -115,7 +115,7 @@ carousel-percentage: 60-70
 # comment-percentage: 30-40
 # pm-percentage: 30-40
 interact-percentage: 60-80
-follow-percentage: 30-40
+follow-percentage: 70-90
 follow-limit: 50
 skipped-list-limit: 10-15
 skipped-posts-limit: 5
@@ -150,7 +150,7 @@ end-if-pm-limit-reached: false
 # Scheduling
 ##############################################################################
 
-working-hours: [07.15-16.40, 18.15-22.46]
+working-hours: [08.15-15.30, 18.15-22.46]
 time-delta: 10-15
-repeat: 30-280
+repeat: 30-120
 # total-sessions: 1 # -1 or commented for infinite sessions
