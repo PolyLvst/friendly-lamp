@@ -1,4 +1,5 @@
 @echo off
+title StartBotGramAddict
 cd %CD%
 if not exist "./venv" (
     echo Creating virtual environment...
